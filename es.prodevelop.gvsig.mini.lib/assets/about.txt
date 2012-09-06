@@ -1,0 +1,49 @@
+gvSIG Mini Copyright v. 1.2.0
+22nd-mar-2011
+
+gvSIG Mini is a free viewer of free-access maps for Java and Android cellular phones.
+
+gvSIG Mini is distributed with GNU/GPL v2 license. For more details, please see License option.
+
+gvSIG Mini has been developed by Prodevelop, S.L.
+
+Prodevelop, S.L.
+http://www.prodevelop.es/
+
+e-mail: prode@prodevelop.es
+
+gvSIG Mini has been funded by Prodevelop, S.L., IMPIVA Institute of Regional Government of Valencia and European Union FEDER funds.
+
+-------------------------------------------------------------------------------
+
+Cartography license & attributions
+
+gvSIG Mini displays maps with the following license restrictions or attributions:
+
+- PNOA & Cartociudad images. Author and owner: Instituto Geográfico Nacional de España - Institut Cartogràfic de Catalunya.
+
+- ICC layer images. Author and owner: Institut Cartogràfic de Catalunya.
+
+- OpenSpace & Ordnance Survey (UK). Contains Ordnance Survey data Crown copyright and database right 2010
+
+gvSIG Mini for Android uses these icons with license restrictions or attributions:
+
+- menu03.png http://www.kde-look.org/content/show.php?content=39988 GNU/GPL
+
+- Icon pack http://www.icons-land.com/gis-gps-map-icons.php 
+
+- menu_navigation http://www.woothemes.com/2009/02/wp-woothemes-ultimate-icon-set-first-release/
+
+- menu00 http://www.everaldo.com/
+
+- menu_download http://earam.deviantart.com/art/the-moonlight-31208162 
+
+- some icons taken from: http://wefunction.com/2008/07/function-free-icon-set/
+
+-------------------------------------------------------------------------------
+
+Polish translation by Grzegorz Myrda
+
+Italian translation by Juan Lucas Dom�nguez Rubio & Paolo Cellini
+
+German translation by Amelia del Rey

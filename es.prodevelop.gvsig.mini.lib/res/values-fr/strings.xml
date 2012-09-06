@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="warning">Mise en garde</string>
+	<string name="error">Erreur</string>
+	<string name="cancel">Annuler</string>
+	<string name="please_wait">Veuillez patienter</string>
+	<string name="error_connecting_server">Erreur de connexion avec le serveur</string>
+	<string name="task_canceled">Tâche annulée</string>
+	<string name="ok">Ok</string>
+	<string name="back">Retour</string>
+	<string name="server_busy">Le serveur est occupé</string>
+	<string name="search">Rechercher</string>
+	<string name="lat">lat</string>
+	<string name="lon">lon</string>
+	<string name="latitude">latitude</string>
+	<string name="longitude">longitude</string>
+	<string name="typeof">Utilisation du géoréférencement</string>
+	<string name="share">Partage de géoréférences dans gvSIG Mini</string>
+	<string name="portrait">Vertical</string>
+	<string name="landscape">Horizontal</string>
+	<string name="send_log">Envoyer le fichier d\'erreurs</string>
+	<string name="fatal_error">gvSIG Mini a détecté une erreur. Souhaitez-vous
+		envoyer
+		le fichier de registre aux développeurs pour qu\'ils puissent le
+		solutionner ?</string>
+
+	<string name="LayersActivity_0">Couches</string>
+	<string name="LayersActivity_1">Carte SD non détectée</string>
+	<string name="LayersActivity_2">Aucun fichier dans</string>
+	<string name="LayersActivity_3">Choisissez un fichier de couches</string>
+	<string name="LayersActivity_4">Fichier de couches chargé avec succès</string>
+	<string name="LayersActivity_5">Impossible de charger le fichier ! Le chemin
+		d\'accès
+		spécifié n\'existe pas</string>
+	<string name="LayersActivity_6">Adresse URL du serveur WMS :</string>
+	<string name="LayersActivity_7">Obtenir des fonctionnalités</string>
+	<string name="LayersActivity_8">Services de cartes</string>
+	<string name="LayersActivity_9">Couches WMS</string>
+	<string name="LayersActivity_10">Ajouter un couche ...</string>
+	<string name="LayersActivity_11">Depuis le serveur WMS</string>
+	<string name="LayersActivity_12">Demande de fonctionnalités ...</string>
+	<string name="LayersActivity_13">Depuis le fichier de couches</string>
+	<string name="LayersActivity_14">Charger le fichier depuis la carte SD ...</string>
+	<string name="LayersActivity_15">Mes couches</string>
+
+	<string name="Map_0">Erreur lors de la création de la carte</string>
+	<string name="Map_1">Aucun résultat trouvé</string>
+	<string name="Map_2">Erreur lors du calcul de l\'itinéraire</string>
+	<string name="Map_3">Rechercher une adresse</string>
+	<string name="Map_4">Ma position</string>
+	<string name="Map_5">Cartes/Couches</string>
+	<string name="Map_6">Mode Zoom Rectangulaire</string>
+	<string name="Map_7">Mode Déplacement</string>
+	<string name="Map_8">Impossible d\'obtenir la prévision météorologique,
+		veuillez essayer une autre adresse.
+		Vérifiez votre connexion à Internet</string>
+	<string name="Map_9">Site déconnecté</string>
+	<string name="Map_10">La prévision météorologique à (%s) est indisponible
+	</string>
+	<string name="Map_11">Prévision météorologique</string>
+	<string name="Map_12">Aujourd\'hui</string>
+	<string name="Map_13">Chemin d\'accès non trouvé</string>
+	<string name="Map_14">Obtention de la prévision météorologique ...
+	</string>
+	<string name="Map_15">Tâche annulée</string>
+	<string name="Map_16">Le serveur ne peut pas calculer l\'itinéraire.
+		Veuillez essayer de changer
+		le point de départ ou d\'arrivée de l\'itinéraire.</string>
+	<string name="Map_17">Attente d\'une réponse du service NameFinder...
+	</string>
+	<string name="Map_18">Calcul de l\'itinéraire annulé</string>
+	<string name="Map_19">Calcul de l\'itinéraire ...</string>
+	<string name="Map_20">Tweet envoyé</string>
+	<string name="Map_21">Rechercher un Point d\'Intérêt</string>
+	<string name="Map_22">Impossible de se connecter au serveur. Vérifiez
+		votre connexion à Internet</string>
+	<string name="Map_24">Aucun fournisseur de position activé</string>
+	<string name="Map_25">Mise en garde : peu de mémoire libre</string>
+	<string name="Map_26">GPS désactivé</string>
+	<string name="Map_27">GPS activé</string>
+	<string name="Map_28">A propos de...</string>
+	<string name="Map_Navigator">Navigateur</string>
+	<string name="not_ask">Ne plus redemander</string>
+
+	<string name="NameFinderActivity_0">Options de Point d\'Intérêt</string>
+	<string name="NameFinderActivity_1">Depuis ici</string>
+	<string name="NameFinderActivity_2">Jusqu\'ici</string>
+	<string name="NameFinderActivity_3">Centrer sur la carte</string>
+
+	<string name="WMSLayersActivity_0">Ajouter les couches sélectionnés</string>
+	<string name="WMSLayersActivity_1">Le couche n\'est pas compatible</string>
+	<string name="WMSLayersActivity_2">Format incompatible</string>
+	<string name="WMSLayersActivity_3">SRS incompatible</string>
+
+	<string name="MapLocation_0">GPS désactivé</string>
+	<string name="MapLocation_1">Le GPS est désactivé. gvSIG Mini a besoin de
+		recevoir sa position en utilisant le GPS pour la montrer sur la carte.
+		Souhaitez-vous activer le GPS maintenant ?</string>
+	<string name="MapLocation_2">gvSIG Mini a détecté une erreur lors de sa dernière
+		exécution. Souhaitez-vous envoyer le fichier de registre aux
+		développeurs pour qu\'ils puissent le solutionner ?</string>
+
+	<string name="TweetMyLocationFunc_0">Ma Position</string>
+
+
+	<string name="Utils_0">Sélectionnez un client de messagerie</string>
+
+
+
+
+
+
+	<string name="unknown">Inconnue</string>
+	<string name="alert_dialog_text_entry">Compte Twitter</string>
+	<string name="alert_dialog_username">Prénom :</string>
+	<string name="alert_dialog_password">Mot de passe :</string>
+	<string name="alert_dialog_cancel">Annuler</string>
+	<string name="alert_dialog_cache">Nombre de niveaux :</string>
+	<string name="alert_dialog_cache_title">Mise en cache de Tuiles</string>
+	<string name="alert_dialog_tweet">Tweet</string>
+	<string name="alert_dialog_start_cache">Commencer avec mise en cache</string>
+	<string name="alert_dialog_text_search">Rechercher</string>
+	<string name="alert_dialog_text_cancel">Annuler</string>
+	<string name="alert_dialog_text_ok">Ok</string>
+
+	<string name="download_tiles_01">Télécharger des couches</string>
+	<string name="download_tiles_02">Une fenêtre de navigation sur Internet va être
+		ouverte pour télécharger le fichier "gvsigminilayers.gvtiles",
+		veuillez sélectionner une adresse URL pour ajouter de nouveaux couches
+		automatiquement à gvSIG Mini.
+		Vous pouvez ajouter aussi de nouveaux couches depuis la carte SD et les
+		exécuter avec l\'explorateur de fichiers.</string>
+
+	<string name="download_tiles_03">Fichier de Couches téléchargé</string>
+	<!-- Missing prefs -->
+	<string name="select_web_browser">Sélectionnez l\'explorateur</string>
+	<string name="select_mail_client">Sélectionnez le client de messagerie</string>
+	<string name="minitwitter">gvSIG Mini Twitter</string>
+	<string name="Map_23">Gardez votre doigt sur l\'écran pour voir les
+		actions disponibles à cette position</string>
+	<!-- Missing prefs -->
+	<string name="Map_30">Nouveautés</string>
+	<string name="Map_29">Licence</string>
+
+	<!-- Missing prefs -->
+	<string name="no">Non</string>
+	<string name="settings_quadkey">Quadkey</string>
+	<string name="settings_maps_cache">Cartes mises en cache</string>
+	<string name="download_tiles_13">Appuyer sur le bouton annuler pour arrêter le
+		processus</string>
+	<string name="download_tiles_12">Téléchargement de cartes annulé</string>
+	<string name="download_tiles_11">Temps restant estimé : </string>
+	<string name="download_tiles_10">Temps écoulé : </string>
+	<string name="download_tiles_15">Déplacer la barre pour sélectionner le niveau de
+		zoom maximum pour télécharger des cartes.
+		Le processus téléchargera les tuiles qui se voient sur l\'écran depuis
+		le niveau de zoom actuel jusqu\'à celui sélectionné avec la barre de
+		déplacement.</string>
+	<string name="download_tiles_14">Télécharger les cartes</string>
+	<string name="settings_orientation">Orientation</string>
+	<string name="settings_mode_offline_off">Sélectionnez un mode de mise en cache</string>
+	<string name="MapLocation_3">L\'information est trop grande pour être montrée
+	</string>
+	<string name="settings_offline">Déconnecté</string>
+	<string name="settings_tilling_mode">Mode de mise en cache</string>
+	<string name="settings_generic">Réglages généraux</string>
+	<string name="Map_32">Garder l\'écran allumé</string>
+	<string name="Map_33">Forcer l\'allumage de l\'écran</string>
+	<string name="Map_31">Réglages</string>
+	<string name="download_tiles_04">Sélectionnez les niveaux de zoom à télécharger
+	</string>
+	<string name="Map_34">Touchez une fois pour montrer/cacher la barre de
+		zoom</string>
+	<string name="download_tiles_06">Nombre total de tuile à télécharger : </string>
+	<string name="download_tiles_05">Niveaux de zoom min/max : </string>
+	<string name="download_tiles_08">Ecraser l\'ancien cache ?</string>
+	<string name="download_tiles_07">Total de MB à télécharger : </string>
+	<string name="settings_OS_key">Clef API OS</string>
+	<string name="download_tiles_09">Total de MB téléchargés : </string>
+	<string name="GetFeatureInfoFunc_0">Claque non consultable</string>
+	<string name="settings_switch_gps">Activer/désactiver GPS</string>
+	<string name="settings_online">Connecté</string>
+	<string name="twitter_go_settings">Veuillez configurer votre compte Twitter.
+		Souhaitez-vous ouvrir l\'écran de Réglages pour indiquer votre nom
+		d\'utilisateur et votre mot de passe de Twitter ?</string>
+	<string name="settings_clear_suggestions_summary">Eliminer l\'historique de recherches</string>
+	<string name="settings_update">Ecraser</string>
+	<string name="settings_OS_url">URL API OS</string>
+	<string name="settings_twitter_not_configured">Votre compte Twitter n\'est pas configuré ...
+	</string>
+	<string name="settings_tilling_strategy">Stratégie de mise en cache</string>
+	<string name="settings_clear_suggestions">Effacer les suggestions</string>
+	<string name="getFeatureInfo">GetFeatureInfo</string>
+	<string name="settings_twitter">Compte Twitter</string>
+	<string name="settings_OS_enable">Réglages API OS</string>
+	<string name="yes">Oui</string>
+	<string name="settings_mode_offline">Cartes hors connexion</string>
+	<string name="search_clear_yesno">Souhaitez-vous éliminer toutes les expressions de
+		recherche antérieures ?</string>
+	<string name="settings_orientation_disabled">Orientation désactivée</string>
+	<string name="settings_mode">Mode</string>
+	<string name="search_hint">Recherche des lieux/adresses</string>
+	<string name="settings_tilex">Z/X/Y</string>
+	<string name="title_settings_tilling_mode">Sélectionnez le mode de mise en cache</string>
+	<string name="settings_twitter_user">Nom d\'utilisateur Twitter</string>
+	<string name="settings_tile_name">Suffixe de nom de tuile</string>
+	<string name="title_settings_tilling_strategy">Sélectionnez la stratégie de mise en cache</string>
+	<string name="settings_twitter_pass">Mot de passe Twitter</string>
+	<string name="summary_settings_downloaded_data">(%s) MB téléchargés pendant cette session</string>
+	<string name="stop">arrêter</string>
+	<string name="settings_mode_offline_on">Obtenir des cartes uniquement depuis la carte SD
+	</string>
+	<string name="settings_connected">Ne pas stocker de données</string>
+	<string name="settings_OS">Réglages API OpenSpace</string>
+	<string name="settings_OS_get_key">Obtenir la clef API OS</string>
+	<string name="settings_gps">GPS</string>
+	<string name="settings_switch_orientation">Activer/désactiver l\'orientation</string>
+	<string name="settings_orientation_enabled">Orientation activée</string>
+	<string name="settings_downloaded_data">Données téléchargées</string>
+
+	<string name="relaunch">Touchez l\'écran pour montrer la carte ou appuyer
+		sur la touche retour pour sortir de gvSIG Mini</string>
+
+	<string name="load_offline">Couche (%s) chargé en mode hors connexion</string>
+
+	<!-- Missing prefs -->
+	<string name="not_download_tiles">Du à de possibles restrictions de la licence du
+		couche, cette fonctionnalité n\'est pas permise pour le couche.
+		Vous pouvez changer à n\'importe quel couche de OPEN STREET MAP pour
+		télécharger des tuiles automatiquement</string>
+	<string name="Map_36">Localisation par cellule activée</string>
+	<string name="Map_35">Localisation par cellule désactivée</string>
+	<string name="LayersActivity_16">Depuis le serveur TMS</string>
+	<string name="LayersActivity_17">Entrez l\'URL du couche ...</string>
+	<string name="LayersActivity_18">Obtenir le couche</string>
+	<string name="LayersActivity_19">Couche ajouté => %s</string>
+	<string name="settings_gps_dist">Rafraîchissement de la distance GPS (mètres)
+	</string>
+	<string name="settings_gps_time">Rafraîchissement du temps GPS (millisecondes)
+	</string>
+	<string name="settings_gps_cell">Activer/désactiver la localisation par cellule
+	</string>
+
+	<string name="download_guides_text">Télécharger des guides</string>
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>es.prodevelop</groupId>
+		<artifactId>es.prodevelop.android.library</artifactId>
+		<version>1.1.1-SNAPSHOT</version>
+	</parent>
+	<groupId>es.prodevelop</groupId>
+	<artifactId>es.prodevelop.android.gvsig.mini.lib</artifactId>
+	<packaging>apklib</packaging>
+	<version>2.0.0-SNAPSHOT</version>
+	<name>gvSIG Mini lib</name>
+
+	<scm>
+		<url>https://svn.prodevelop.es/public/gvsigmini/gvsig_mini_libraries/tags</url>
+		<connection>https://svn.prodevelop.es/public/gvsigmini/gvsig_mini_libraries/tags</connection>
+		<developerConnection>scm:svn:https://svn.prodevelop.es/public/gvsigmini/gvsig_mini_libraries/tags</developerConnection>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>gvsig-public-http-repository</id>
+			<name>gvSIG maven public HTTP repository</name>
+			<url>http://gvsig-desktop.forge.osor.eu/downloads/pub/projects/gvSIG-desktop/maven-repository</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-android</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<!-- <scope>test</scope> -->
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.android.common.encrypt</artifactId>
+			<version>0.1</version>
+			<type>apklib</type>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.android.actionbar</artifactId>
+			<version>0.2-SNAPSHOT</version>
+			<type>apklib</type>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.android.common</artifactId>
+			<version>0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.gvsig.mini.geom</artifactId>
+			<version>1.0.3-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.tilerastercache</artifactId>
+			<version>0.6.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.tilerastercache.wms</artifactId>
+			<version>0.4.3-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.gvsig.mini.compat</artifactId>
+			<version>0.5.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.gvsig.mini.remoteservices</artifactId>
+			<version>0.2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.android.spatialindex.base</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>./src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<outputDirectory>lib</outputDirectory>
+					<overWriteIfNewer>true</overWriteIfNewer>
+					<excludeScope>provided</excludeScope>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+			
+
+			<!-- plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-eclipse-plugin</artifactId> 
+				<version>2.9-SNAPSHOT</version> </plugin -->
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											com.jayway.maven.plugins.android.generation2
+										</groupId>
+										<artifactId>
+											android-maven-plugin
+										</artifactId>
+										<versionRange>
+											[3.0.0-alpha-12,)
+										</versionRange>
+										<goals>
+											<goal>
+												generate-sources
+											</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

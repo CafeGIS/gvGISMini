@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>es.prodevelop</groupId>
+		<artifactId>es.prodevelop.android.library</artifactId>
+		<version>1.1.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>es.prodevelop.android.common.encrypt</artifactId>
+	<packaging>apklib</packaging>
+	<name>Encryption library</name>
+	<version>0.2-SNAPSHOT</version>
+
+	<description>Encryprion library for gvSIG Mini</description>
+
+	<licenses>
+		<license>
+			<name>GNU General Public License, Version 2.0 or any later version</name>
+			<url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://svn.prodevelop.es/public/gvsigmini/gvsig_mini_libraries/trunk/encryption/es.prodevelop.android.common.encrypt/</url>
+		<connection>https://svn.prodevelop.es/public/gvsigmini/gvsig_mini_libraries/trunk/encryption/es.prodevelop.android.common.encrypt/</connection>
+		<developerConnection>scm:svn:https://svn.prodevelop.es/public/gvsigmini/gvsig_mini_libraries/trunk/encryption/es.prodevelop.android.common.encrypt/</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<id>aromeu</id>
+			<name>Alberto Romeu</name>
+			<email>aromeu@prodevelop.es</email>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>es.prodevelop</groupId>
+			<artifactId>es.prodevelop.gvsig.mini.compat</artifactId>
+			<version>0.5.4</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>./src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<outputDirectory>lib</outputDirectory>
+					<overWriteIfNewer>true</overWriteIfNewer>
+					<excludeScope>provided</excludeScope>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											com.jayway.maven.plugins.android.generation2
+										</groupId>
+										<artifactId>
+											android-maven-plugin
+										</artifactId>
+										<versionRange>
+											[3.0.0-alpha-12,)
+										</versionRange>
+										<goals>
+											<goal>
+												generate-sources
+											</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+</project>

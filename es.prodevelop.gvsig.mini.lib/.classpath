@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="libs/commons-compress-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/dspace-perst-4.21.jar"/>
+	<classpathentry kind="lib" path="libs/es.alrocar.map.vector-0.2.5-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="libs/es.prodevelop.android.common-0.1.jar"/>
+	<classpathentry kind="lib" path="libs/es.prodevelop.android.spatialindex.base-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/es.prodevelop.android.spatialindex.provider-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/es.prodevelop.gvsig.mini.geom-1.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/es.prodevelop.gvsig.mini.remoteservices-0.2.5.jar"/>
+	<classpathentry kind="lib" path="libs/es.prodevelop.tilerastercache-0.6.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="libs/es.prodevelop.tilerastercache.wms-0.4.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.0-alpha5.jar"/>
+	<classpathentry kind="lib" path="libs/jts-1.11.jar"/>
+	<classpathentry kind="lib" path="libs/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/kxml2-2.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-android-1.6.1-RC1.jar"/>
+	<classpathentry kind="lib" path="libs/xercesImpl-2.4.0.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

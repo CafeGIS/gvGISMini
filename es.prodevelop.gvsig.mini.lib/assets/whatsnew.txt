@@ -1,0 +1,268 @@
+gvSIG Mini Copyright v. 1.2.0
+
+v. 1.2.0
+
+New features: 
+
+* Don't allow routing while in offline
+
+* Make it easier switch online/offline mode
+
+* Launch browser on GetFeatureInfo
+
+----
+
+Bugs fixed:
+
+* NoSuchFieldError
+
+* Download tiles dialog scrollable
+
+
+v. 1.1.0
+
+New Features:
+
+* Added option in the Layers Activity to add a TMS layer giving its URL.
+
+* Adapted zoom level to location precission under Navigation Mode
+
+* Allowed install app in SD (valid for Froyo and later)
+
+* Added settings to fix time and distance for GPS updates
+
+* Added a setting to switch on/off Cell location
+
+* Enhanced screen painting
+
+* Disabled orientation sensor by default
+
+* Added support for Z/Y/X and 'QRST' Quadkey layers
+
+* Added a NOT_LOCAL_CACHE mode to TileProvider to download tiles
+
+* Automatically select info_format for getFeatureInfo requests (text/html, text/plain or text/xml)
+
+* Made alert dialogs scrollable
+
+* Added Japanese translation by Hirofumi Hayashi &  Yoichi Kayama
+
+* Added Polish translation by Grzegorz Myrda
+
+--------
+
+Bugs fixed:
+
+* Fixed battery draining when the application is not running
+
+* Removed wake locks, used KEEP_SCREEN_ON instead
+
+* Fixed a bug on the TimerTask of Cell location
+
+* Solved wrong memory usage when downloading tiles
+
+* Changed SRS to CRS in WMS 1.3.0
+
+* Show warning when download tiles functionality is not allowed for a layer.
+
+
+v. 1.0.0
+
+New Features:
+
+* Implemented onScroll and onFling panning
+
+* Use of SurfaceView to get a responsiveness UI
+
+* Double buffer scaled zoom transitions 
+
+* Background initialization
+
+* Multitouch compatibility for devices with SDK > 2.0
+
+* Added support for Android search dialog 
+
+* Added Ordnance Survey OpenSpace layer support with custom KEY
+
+* Added ICC layers to default layers.txt
+
+* Added a Settings Activity
+
+* Support for Z/X/Y cache strategy
+
+* Added a new dialog to allow download tiles from the device
+
+* Allow enable/disable GPS and orientation to save battery
+
+* Allow to set tile name suffix to make cache interoperable
+
+* Off-line/Overwrite/Not store tiles cache mode
+
+* Faster and reliable tile provider
+
+* Added retries when the download of a tile fails
+
+--------
+
+Bugs fixed:
+
+* Fixed contextual menu behaviour
+	
+* Send exception logs fails when the application is closed with a task killer
+
+* Stop location handlers on pause
+
+* Fixed German translation by Lubomir Schmidt
+
+* Persistent Twitter account credentials
+
+v. 0.2.2
+
+New Features:
+
+* Added WMS contexts with GetFeatureInfo functionality
+
+* Added GetFeatureInfo request for queryable WMS layers 
+
+* Added Polish translation by Grzegorz Myrda
+
+* Updated layers.txt to v0.2.1
+
+--------
+
+Bugs fixed:
+
+* Fixed a bug when switching between item contexts
+	
+* Fixed a bug on WMS layers whose name contains ':'
+	
+* Fixed a bug on WMS requests when symbol '?' is not at last position
+
+* Fixed log level on YOURSFunctionality
+
+* Fixed a bug when instantiating LocationTimer
+	
+* Fixed resolutions for zoom levels higher than 19
+
+* Fixed cache size when no optimal size can be calculated
+
+v. 0.2.1
+
+New Features:
+
+* Support for low resolution devices
+
+* Cartociudad WMS-C added to default layers
+
+--------
+
+Bugs fixed:
+
+* Fixed german translation
+
+* Added WRITE_EXTERNAL_STORAGE permission to allow writing files on the device
+
+
+
+gvSIG Mini Copyright v. 0.2.0
+
+v. 0.2.0
+
+--------
+
+New Features:
+
+* Support for WMS and WMS-C layers
+
+* Street View integration
+
+* Compass support
+
+* GPS, Cell and Network GeoLocation positioning
+
+* Precission of the position displayed on the map
+
+* Navigation Mode
+
+* Share your location: Twitter, SMS, Email, Facebook...
+
+* Compatible with Low and High Screen Resolutions
+
+* Speed download improvements
+
+* New layers added by default
+
+* Layer configuration downloader
+
+* QuickZoom: SlideBar or DoubleTap
+
+* Enable/disable GPS
+
+* Improved user interface
+
+* Context menu (with long press)
+
+* Android 2.1 support (now from 1.5 up to 2.1)
+
+
+Bugs fixed:
+
+* Catch OutOfMemoryErrors
+
+* Menu icon of "download layers" without text
+
+* Routes from/to POI don't run
+
+* gvSIG Mini icon not adapted to high resolution
+
+* Landscape mode does not show correctly the compass orientation
+
+* WMS layers (also TMS) don't save Route and POIS
+
+* When the screen orientation changes the map is zoomed out one level
+
+* Tweet my position with extra decimals
+
+* Change literal when No GPS is found
+
+* Increase max zoom levels in assets/layers.txt
+
+* The text with downloaded KBytes is no longer visible
+
+* Fixed zoom level doesn't work fine in navigation mode + search
+
+* NameFinder request does not time-out
+
+* Empty toasts at beginning
+
+* Black screen when no SD Card
+
+* Crash changing from vertical to horizontal position and back
+
+* Strange zoom in of the position icon when change layer
+
+* Layer changed when re-positioning the phone
+
+* My Location Off doesn't work
+
+* Tiles not cached
+
+* Red line when changing position
+
+* Position dissapears a while when changing phone's orientation
+
+* The zoom scale isn't visible any longer
+
+* Orientation change loses position
+
+* Change extension of tiles stored in the sd card
+
+* Bad tiling composition at 0 zoom level
+
+* Sporadic crash
+
+* Position hopping
+
+* Orientation flipping
+
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>es.prodevelop</groupId>
+		<artifactId>es.prodevelop.android.library</artifactId>
+		<version>1.1.1-SNAPSHOT</version>
+	</parent>
+	<groupId>es.prodevelop</groupId>
+	<artifactId>es.prodevelop.android.actionbar</artifactId>
+	<packaging>apklib</packaging>
+	<name>Markup artist ActionBar widget</name>
+	<version>0.2-SNAPSHOT</version>
+
+	<scm>
+		<url>https://svn.prodevelop.es/public/gvsigmini/design/trunk/com_markupartist_android_widget_actionbar/</url>
+		<connection>https://svn.prodevelop.es/public/gvsigmini/design/trunk/com_markupartist_android_widget_actionbar/</connection>
+		<developerConnection>scm:svn:https://svn.prodevelop.es/public/gvsigmini/design/trunk/com_markupartist_android_widget_actionbar/</developerConnection>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>./src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<outputDirectory>lib</outputDirectory>
+					<overWriteIfNewer>true</overWriteIfNewer>
+					<excludeScope>provided</excludeScope>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

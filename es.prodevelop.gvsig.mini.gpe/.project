@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>es.prodevelop.gvsig.mini.gpe</name>
+	<comment>Build project for gvSIG Mini. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>es.prodevelop.android.gvsig.mini.lib</project>
+		<project>org.gvsig.gpe.lib.api</project>
+		<project>org.gvsig.gpe.lib.impl</project>
+		<project>org.gvsig.gpe.lib.spi</project>
+		<project>org.gvsig.gpe.prov.gml</project>
+		<project>org.gvsig.gpe.prov.gpx</project>
+		<project>org.gvsig.gpe.prov.kml</project>
+		<project>org.gvsig.gpe.prov.xml</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.PreCompilerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
