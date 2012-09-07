@@ -1,0 +1,42 @@
+<class-diagram version="1.0.10" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.activities.filter.AutoCompleteFilter" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/activities/filter/AutoCompleteFilter.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="111" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.activities.filter.FeatureFilter" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/activities/filter/FeatureFilter.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="411" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.activities.filter.SimpleFilter" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/activities/filter/SimpleFilter.java" binary="false">    
+    <position height="-1" width="-1" x="411" y="249"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <generalization id="4">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

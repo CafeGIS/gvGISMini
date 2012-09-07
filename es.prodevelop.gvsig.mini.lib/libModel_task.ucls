@@ -1,0 +1,385 @@
+<class-diagram version="1.0.10" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="false" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.Functionality" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/Functionality.java" binary="false">    
+    <position height="-1" width="-1" x="2065" y="1280"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.Task" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/Task.java" binary="false">    
+    <position height="-1" width="-1" x="1202" y="175"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.TaskHandler" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/TaskHandler.java" binary="false">    
+    <position height="-1" width="-1" x="1077" y="489"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.TaskStatusListener" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/TaskStatusListener.java" binary="false">    
+    <position height="-1" width="-1" x="1267" y="435"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.map.GetCellLocationFunc" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/map/GetCellLocationFunc.java" binary="false">    
+    <position height="-1" width="-1" x="516" y="738"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.map.ShowStreetView" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/map/ShowStreetView.java" binary="false">    
+    <position height="-1" width="-1" x="494" y="936"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.namefinder.CleanPOIFunc" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/namefinder/CleanPOIFunc.java" binary="false">    
+    <position height="-1" width="-1" x="342" y="1358"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.namefinder.ListPOIFunc" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/namefinder/ListPOIFunc.java" binary="false">    
+    <position height="-1" width="-1" x="572" y="1274"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.namefinder.NameFinderFunc" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/namefinder/NameFinderFunc.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="786" y="1378"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.namefinder.NameFinderFunc.POIHandler" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/namefinder/NameFinderFunc.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="786" y="1555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.namefinder.ShowNameFinderAddressDialog" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/namefinder/ShowNameFinderAddressDialog.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="272" y="1170"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.poi.CenterPOIOnMap" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/poi/CenterPOIOnMap.java" binary="false">    
+    <position height="-1" width="-1" x="2339" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.poi.InvokeIntents" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/poi/InvokeIntents.java" binary="false">    
+    <position height="163" width="207" x="2917" y="699"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.poi.ShareAnyPOITask" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/poi/ShareAnyPOITask.java" binary="false">    
+    <position height="-1" width="-1" x="2792" y="326"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.poi.ShowGMapsFromPoint" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/poi/ShowGMapsFromPoint.java" binary="false">    
+    <position height="-1" width="-1" x="3099" y="553"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="16" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.poi.ShowStreetViewFromPoint" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/poi/ShowStreetViewFromPoint.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="2759" y="599"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.tiledownloader.TileDownloadCallbackHandler" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/tiledownloader/TileDownloadCallbackHandler.java" 
+    binary="false">    
+    <position height="163" width="256" x="2778" y="1159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.tiledownloader.TileDownloadWaiter" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/tiledownloader/TileDownloadWaiter.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="3186" y="1493"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.twitter.ShareMyLocationFunc" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/twitter/ShareMyLocationFunc.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="2526" y="1833"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.weather.WeatherFunctionality.WeatherHandler" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/weather/WeatherFunctionality.java" 
+    binary="false">    
+    <position height="95" width="175" x="1463" y="2090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.weather.WeatherFunctionality" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/weather/WeatherFunctionality.java" 
+    binary="false">    
+    <position height="248" width="274" x="1463" y="1802"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="22" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.wms.GetCapabilitiesTask" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/wms/GetCapabilitiesTask.java" binary="false">    
+    <position height="-1" width="-1" x="3060" y="2359"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.wms.GetFeatureInfoFunc" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/wms/GetFeatureInfoFunc.java" binary="false">    
+    <position height="163" width="199" x="3274" y="2332"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.wms.RequestTMSLayerTask" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/wms/RequestTMSLayerTask.java" binary="false">    
+    <position height="163" width="211" x="3095" y="2525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="25" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.yours.DeleteRouteFunctionality" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/yours/DeleteRouteFunctionality.java" 
+    binary="false">    
+    <position height="129" width="221" x="950" y="2456"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="26" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.yours.FinishPointFunctionality" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/yours/FinishPointFunctionality.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="1373" y="2520"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="27" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.yours.RoutePointHandler" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/yours/RoutePointHandler.java" binary="false">    
+    <position height="-1" width="-1" x="772" y="2519"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="28" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.yours.StartPointFunctionality" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/yours/StartPointFunctionality.java" 
+    binary="false">    
+    <position height="129" width="209" x="1222" y="2676"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="29" corner="BOTTOM_RIGHT" language="java" name="es.prodevelop.gvsig.mini.tasks.yours.YOURSFunctionality" 
+    project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/yours/YOURSFunctionality.java" binary="false">    
+    <position height="-1" width="-1" x="1006" y="2786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="30" corner="BOTTOM_RIGHT" language="java" 
+    name="es.prodevelop.gvsig.mini.tasks.yours.YOURSFunctionality.YOURSHandler" project="es.prodevelop.gvsig.mini.lib" 
+    file="/es.prodevelop.gvsig.mini.lib/src/es/prodevelop/gvsig/mini/tasks/yours/YOURSFunctionality.java" binary="false">    
+    <position height="-1" width="-1" x="993" y="2972"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="40">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <nesting id="41">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <nesting id="49">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <nesting id="52">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="30"/>  
+  </nesting>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

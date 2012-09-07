@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
 
+import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
@@ -24,6 +25,7 @@ import es.prodevelop.gvsig.mini.gpe.driver.DriverGPEFactory;
 import es.prodevelop.gvsig.mini.gpe.driver.VectorGPEDriver;
 import es.prodevelop.gvsig.mini.gpe.tasks.DownloadRemoteGPEFilesTask;
 
+@TargetApi(3)
 public class GPETOCActivity extends TOCActivity {
 
 	private String[] mFileList;
